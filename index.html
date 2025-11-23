@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyash Jagtap | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Shreyash.</a>
+                <div class="nav-links" id="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <span class="eyebrow">Cloud • DevOps • SRE ready</span>
+                        <h1 id="hero-name">Loading...</h1>
+                        <p class="hero-role" id="hero-role">Loading...</p>
+                        <p class="hero-summary" id="hero-summary">Loading...</p>
+                        <div class="hero-pills">
+                            <span class="pill"><i class="fa-solid fa-cloud"></i> AWS · Azure · GCP · OCI</span>
+                            <span class="pill"><i class="fa-solid fa-diagram-project"></i> Terraform · Ansible · CI/CD</span>
+                            <span class="pill"><i class="fa-solid fa-cubes"></i> Docker · Kubernetes · Helm</span>
+                        </div>
+                        <div class="hero-actions">
+                            <a href="#contact" class="btn btn-primary">Book a call</a>
+                            <a href="#projects" class="btn ghost-btn">View projects</a>
+                            <a href="#" class="btn ghost-btn" style="border: 1px dashed var(--border);">Download resume</a>
+                        </div>
+                        <div class="social-links" id="hero-socials">
+                            <!-- Social links injected here -->
+                        </div>
+                    </div>
+                    <div class="hero-panel">
+                        <div class="card hero-status">
+                            <div class="status-chip"><i class="fa-solid fa-signal"></i> Open to Cloud/DevOps roles</div>
+                            <ul class="status-list">
+                                <li><i class="fa-solid fa-circle-check"></i> Hardened Linux + observability first mindset</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Ship repeatable infra with Terraform/Ansible</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Build and secure pipelines end-to-end</li>
+                            </ul>
+                        </div>
+                        <div class="hero-metrics">
+                            <div class="metric-card">
+                                <span class="metric-label">Cloud Footprint</span>
+                                <span class="metric-value">AWS · Azure · GCP · OCI</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-label">Automation</span>
+                                <span class="metric-value">Jenkins · CI/CD · GitOps</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-label">Containers</span>
+                                <span class="metric-value">Docker · Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container">
+                <div class="logo-head">
+                    <h2 class="section-title">Cloud & DevOps Stack</h2>
+                    <p class="logo-copy">Battle-tested on the core platforms and tools that keep modern infra shipshape.</p>
+                </div>
+                <div class="logo-grid">
+                    <div class="logo-tile">
+                        <div class="logo-icon"><img src="assets/logos/aws.svg" alt="AWS logo"></div>
+                        <span>AWS</span>
+                    </div>
+                    <div class="logo-tile">
+                        <div class="logo-icon"><img src="assets/logos/azure.svg" alt="Azure logo"></div>
+                        <span>Azure</span>
+                    </div>
+                    <div class="logo-tile">
+                        <div class="logo-icon"><img src="assets/logos/gcp.svg" alt="GCP logo"></div>
+                        <span>GCP</span>
+                    </div>
+                    <div class="logo-tile">
+                        <div class="logo-icon"><img src="assets/logos/docker.svg" alt="Docker logo"></div>
+                        <span>Docker</span>
+                    </div>
+                    <div class="logo-tile">
+                        <div class="logo-icon"><img src="assets/logos/kubernetes.svg" alt="Kubernetes logo"></div>
+                        <span>Kubernetes</span>
+                    </div>
+                    <div class="logo-tile">
+                        <div class="logo-icon"><img src="assets/logos/terraform.svg" alt="Terraform logo"></div>
+                        <span>Terraform</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="impact">
+            <div class="container">
+                <h2 class="section-title">What you get with me</h2>
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <div class="badge">Reliability</div>
+                        <h3>Uptime-first pipelines</h3>
+                        <p>Build, test, deploy, and observe with guardrails so releases are boring and rollbacks are fast.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> Blue/green & canary strategies</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Traces + logs wired into dashboards</li>
+                            <li><i class="fa-solid fa-circle-check"></i> IaC baselines for repeatable environments</li>
+                        </ul>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="badge">Automation</div>
+                        <h3>CI/CD that scales</h3>
+                        <p>From Git push to production using Jenkins and GitHub Actions with tight security controls.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> Secrets & access locked down</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Container build + scan baked in</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Terraform + Ansible delivery tracks</li>
+                        </ul>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="badge">Velocity</div>
+                        <h3>Ship faster, safer</h3>
+                        <p>Shorten lead time with clear SLAs, reproducible environments, and proactive monitoring.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> Alert playbooks & runbooks</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Container orchestration tuned for cost</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Incident response and postmortems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="card" style="max-width: 800px; margin: 0 auto;">
+                    <p id="about-text" style="color: var(--text-muted); font-size: 1.1rem;"></p>
+                    <div
+                        style="margin-top: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                        <div>
+                            <i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 0.5rem;"></i>
+                            <span id="about-location"></span>
+                        </div>
+                        <div>
+                            <i class="fas fa-envelope" style="color: var(--primary); margin-right: 0.5rem;"></i>
+                            <span id="about-email"></span>
+                        </div>
+                        <div>
+                            <i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i>
+                            <span id="about-phone"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid" id="skills-container">
+                    <!-- Skills injected here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline" id="experience-container">
+                    <!-- Experience injected here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid" id="projects-container">
+                    <!-- Projects injected here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education & Certifications</h2>
+                <div class="edu-grid">
+                    <div class="card">
+                        <h3 style="margin-bottom: 1.5rem; color: var(--primary);">Education</h3>
+                        <div id="education-container" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                            <!-- Education injected here -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 style="margin-bottom: 1.5rem; color: var(--primary);">Certifications</h3>
+                        <div class="cert-list" id="certifications-container">
+                            <!-- Certifications injected here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-ribbon">
+            <div class="container ribbon-inner">
+                <div>
+                    <p class="ribbon-eyebrow">Available for Cloud / DevOps roles</p>
+                    <h3>Boring releases. Observable systems. Infrastructure you can trust.</h3>
+                    <p class="ribbon-copy">Remote-friendly • Pune timezone • Response in under 24 hours</p>
+                </div>
+                <div class="ribbon-actions">
+                    <a href="#contact" class="btn btn-primary">Book time</a>
+                    <a href="mailto:shreyash5522@gmail.com" class="btn ghost-btn">Email me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="card" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <p style="margin-bottom: 2rem; color: var(--text-muted);">
+                        I'm currently open to new opportunities. Whether you have a question or just want to say hi,
+                        I'll try my best to get back to you!
+                    </p>
+                    <a href="mailto:shreyash5522@gmail.com" class="btn btn-primary"
+                        style="font-size: 1.2rem; padding: 1rem 2rem;">
+                        <i class="fas fa-paper-plane" style="margin-right: 0.5rem;"></i> Say Hello
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links" id="footer-socials" style="margin-bottom: 1rem;"></div>
+            <p style="color: var(--text-muted);">&copy; 2025 Shreyash Jagtap. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
