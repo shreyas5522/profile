@@ -293,7 +293,7 @@ function render() {
   const socialHTML = `
     <a href="${personalDetails.socials.linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a href="${personalDetails.socials.github}" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="${personalDetails.socials.twitter}" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="${personalDetails.socials.twitter}" target="_blank"><i class="fab fa-x-twitter"></i></a>
   `;
   if (heroSocials) heroSocials.innerHTML = socialHTML;
   if (footerSocials) footerSocials.innerHTML = socialHTML;
