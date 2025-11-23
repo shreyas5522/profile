@@ -66,19 +66,28 @@ const experience = [
 
 const projects = [
   {
+    title: "End-to-End DevOps Project: Java To-Do Application",
+    description: "Production-style three-tier Java 17 Spring Boot to-do app with MySQL, Dockerized services, and CI/CD from commit to deploy.",
+    tags: ["Java 17", "Spring Boot", "MySQL 8", "Docker", "CI/CD"],
+    link: "paste-link/devops-todo-case"
+  },
+  {
     title: "3-Tier Full-Stack Blog",
     description: "Built using MySQL & Python with AWS VPC, EC2, RDS, and S3.",
-    tags: ["MySQL", "Python", "AWS", "Full-Stack"]
+    tags: ["MySQL", "Python", "AWS", "Full-Stack"],
+    link: "paste-link/blog-case"
   },
   {
     title: "Time-Series Traffic Forecasting",
     description: "Traffic predictor system using the ARIMA ML model.",
-    tags: ["ML", "ARIMA", "Python"]
+    tags: ["ML", "ARIMA", "Python"],
+    link: "paste-link/traffic-forecast"
   },
   {
     title: "WordPress Site Manager with Docker",
     description: "Managed WordPress deployments using LAMP, MariaDB, Docker, Docker-Compose, Bash scripting.",
-    tags: ["Docker", "WordPress", "Bash", "LAMP"]
+    tags: ["Docker", "WordPress", "Bash", "LAMP"],
+    link: "paste-link/wp-docker"
   }
 ];
 
@@ -104,112 +113,128 @@ const certifications = [
     issuer: "Amazon Web Services (AWS)",
     date: "Jul 2025 · Expires Jul 2028",
     id: "7442e971fbca4432b068eebc238202de",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-aws-cloud-practitioner"
   },
   {
     name: "Microsoft Certified: Azure AI Engineer Associate",
     issuer: "Microsoft",
     date: "Issued Jun 2025",
     id: "ED571189507F39CD",
-    skills: ["Agentic AI", "Generative AI", "Microsoft Azure", "API Development", "AI", "NLP", "Computer Vision", "Neural Networks"]
+    skills: ["Agentic AI", "Generative AI", "Microsoft Azure", "API Development", "AI", "NLP", "Computer Vision", "Neural Networks"],
+    link: "paste-link/cert-azure-ai-engineer"
   },
   {
     name: "MongoDB Associate Developer",
     issuer: "MongoDB",
     date: "Issued May 2025",
     id: "wpq0KqAl",
-    skills: ["Python", "Flask", "AI", "API Development"]
+    skills: ["Python", "Flask", "AI", "API Development"],
+    link: "paste-link/cert-mongodb-associate"
   },
   {
     name: "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
     issuer: "Oracle",
     date: "Issued Jul 2024",
     id: "100722159OCI2024GAIOCP",
-    skills: ["AI", "Generative AI", "Oracle Cloud"]
+    skills: ["AI", "Generative AI", "Oracle Cloud"],
+    link: "paste-link/cert-oci-genai"
   },
   {
     name: "Professional Certificate in Kubernetes and Cloud Native Technologies",
     issuer: "The Linux Foundation",
     date: "Issued Jul 2023",
     id: "e8728a4d404c4835af696736a40c7fac",
-    skills: ["Linux Server", "Cloud-Native Architecture", "Kubernetes", "Cloud-Native Applications", "Scripting"]
+    skills: ["Linux Server", "Cloud-Native Architecture", "Kubernetes", "Cloud-Native Applications", "Scripting"],
+    link: "paste-link/cert-linux-foundation-k8s"
   },
   {
     name: "Verified Certificate for Introduction to Cloud Infrastructure Technologies",
     issuer: "The Linux Foundation",
     date: "Issued Jun 2023",
     id: "a4736f656c294a97ac92a2339be1dbb7",
-    skills: ["Cloud Computing"]
+    skills: ["Cloud Computing"],
+    link: "paste-link/cert-linux-foundation-cloud-intro"
   },
   {
     name: "Cloud Hero DevOps Skills",
     issuer: "Google Cloud Training Online",
     date: "Issued Mar 2023",
     id: "3387347",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-gcp-cloud-hero"
   },
   {
     name: "LFS101x: Introduction to Linux",
     issuer: "The Linux Foundation",
     date: "Issued Feb 2023",
     id: "542d63c2de974e8b9803087054ccd933",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-linux-foundation-lfs101"
   },
   {
     name: "Data Science with Python",
     issuer: "Udemy",
     date: "Issued Dec 2022",
     id: "UC-2381aba1-5f8e-42cd-8b43-34e10f95c284",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-udemy-data-science"
   },
   {
     name: "Big Data Computing | NPTEL",
     issuer: "Indian Institute of Technology, Kanpur",
     date: "Issued Oct 2022",
     id: "CS65S3378053010179017",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-nptel-big-data"
   },
   {
     name: "Data, ML, and AI Tasks in Google Cloud",
     issuer: "Google Cloud Training Online",
     date: "Issued Oct 2021",
     id: "1359826",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-gcp-ml-ai-tasks"
   },
   {
     name: "Engineer Data in Google Cloud",
     issuer: "Google Cloud Training Online",
     date: "Issued Oct 2021",
     id: "1373585",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-gcp-engineer-data"
   },
   {
     name: "Insights from Data with BigQuery",
     issuer: "Google Cloud Training Online",
     date: "Issued Oct 2021",
     id: "1365469",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-gcp-bigquery"
   },
   {
     name: "Cloud Computing 2.0: Embracing Kubernetes",
     issuer: "Sertifier",
     date: "Issued Jul 2021",
     id: "56102559913834",
-    skills: ["Amazon Web Services (AWS)"]
+    skills: ["Amazon Web Services (AWS)"],
+    link: "paste-link/cert-sertifier-k8s"
   },
   {
     name: "Java Programming: Complete Beginner to Advanced",
     issuer: "Udemy",
     date: "Issued Jan 2021",
     id: "UC-5589346a-3c28-4220-9b3b-aeed1ca7e038",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-udemy-java"
   },
   {
     name: "GAIT",
     issuer: "GAIT Global Assessment of Information Technology",
     date: "Issued May 2023 · Expired May 2024",
     id: "2024V1MCOE0000000098",
-    skills: []
+    skills: [],
+    link: "paste-link/cert-gait"
   }
 ];
 
@@ -328,6 +353,7 @@ function render() {
         <div class="project-tags">
           ${proj.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('')}
         </div>
+        ${proj.link ? `<a class="project-link" href="${proj.link}" target="_blank" rel="noopener">Open case</a>` : ''}
       `;
       projectsContainer.appendChild(card);
     });
@@ -377,6 +403,7 @@ function render() {
             ${cert.skills.map(s => `<span class="cert-skill">${s}</span>`).join('')}
         </div>
         ` : ''}
+        ${cert.link ? `<div class="cert-link-wrap"><a class="cert-link" href="${cert.link}" target="_blank" rel="noopener">View credential</a></div>` : ''}
       `;
       certificationsContainer.appendChild(div);
     });
