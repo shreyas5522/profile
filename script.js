@@ -290,10 +290,15 @@ function render() {
   if (heroSummary) heroSummary.textContent = personalDetails.summary;
 
   // Socials
+  const xIcon = `
+    <svg aria-hidden="true" viewBox="0 0 24 24" class="icon-x">
+      <path fill="currentColor" d="M16.7 3H20l-7.3 8.3L20.8 21H15l-4.4-5.5L5.7 21H2.4l7.8-8.9L3.5 3h5l4 5 4.2-5z"/>
+    </svg>
+  `;
   const socialHTML = `
-    <a href="${personalDetails.socials.linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <a href="${personalDetails.socials.github}" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="${personalDetails.socials.twitter}" target="_blank"><i class="fab fa-x-twitter"></i></a>
+    <a href="${personalDetails.socials.linkedin}" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="${personalDetails.socials.github}" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    <a href="${personalDetails.socials.twitter}" target="_blank" aria-label="X / Twitter">${xIcon}</a>
   `;
   if (heroSocials) heroSocials.innerHTML = socialHTML;
   if (footerSocials) footerSocials.innerHTML = socialHTML;
