@@ -218,7 +218,7 @@ nav {
   min-height: 100vh;
   display: grid;
   align-items: center;
-  padding-top: 80px; /* Offset for fixed header */
+  padding-top: 104px; /* Offset for fixed header with extra breathing room */
   position: relative;
   overflow: hidden;
 }
@@ -819,6 +819,11 @@ footer {
   
   .hero-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .hero-socials {
+    justify-content: center;
+    width: 100%;
   }
   
   .hero-actions {
