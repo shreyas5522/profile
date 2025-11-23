@@ -69,25 +69,25 @@ const projects = [
     title: "End-to-End DevOps Project: Java To-Do Application",
     description: "Production-style three-tier Java 17 Spring Boot to-do app with MySQL, Dockerized services, and CI/CD from commit to deploy.",
     tags: ["Java 17", "Spring Boot", "MySQL 8", "Docker", "CI/CD"],
-    link: "paste-link/devops-todo-case"
+    link: "https://github.com/shreyas5522/end-to-end-devops"
   },
   {
     title: "3-Tier Full-Stack Blog",
     description: "Built using MySQL & Python with AWS VPC, EC2, RDS, and S3.",
     tags: ["MySQL", "Python", "AWS", "Full-Stack"],
-    link: "paste-link/blog-case"
+    link: "https://github.com/shreyas5522/fullStack-Blog"
   },
   {
     title: "Time-Series Traffic Forecasting",
     description: "Traffic predictor system using the ARIMA ML model.",
     tags: ["ML", "ARIMA", "Python"],
-    link: "paste-link/traffic-forecast"
+    link: "https://github.com/shreyas5522/forecastingFlask"
   },
   {
     title: "WordPress Site Manager with Docker",
     description: "Managed WordPress deployments using LAMP, MariaDB, Docker, Docker-Compose, Bash scripting.",
     tags: ["Docker", "WordPress", "Bash", "LAMP"],
-    link: "paste-link/wp-docker"
+    link: "https://github.com/shreyas5522/wp-site-manager-docker"
   }
 ];
 
@@ -114,7 +114,7 @@ const certifications = [
     date: "Jul 2025 · Expires Jul 2028",
     id: "7442e971fbca4432b068eebc238202de",
     skills: [],
-    link: "paste-link/cert-aws-cloud-practitioner"
+    link: "https://cp.certmetrics.com/amazon/en/public/verify/credential/7442e971fbca4432b068eebc238202de"
   },
   {
     name: "Microsoft Certified: Azure AI Engineer Associate",
@@ -122,7 +122,7 @@ const certifications = [
     date: "Issued Jun 2025",
     id: "ED571189507F39CD",
     skills: ["Agentic AI", "Generative AI", "Microsoft Azure", "API Development", "AI", "NLP", "Computer Vision", "Neural Networks"],
-    link: "paste-link/cert-azure-ai-engineer"
+    link: "https://learn.microsoft.com/en-gb/users/shreyashjagtap/credentials/ed571189507f39cd"
   },
   {
     name: "MongoDB Associate Developer",
@@ -130,7 +130,7 @@ const certifications = [
     date: "Issued May 2025",
     id: "wpq0KqAl",
     skills: ["Python", "Flask", "AI", "API Development"],
-    link: "paste-link/cert-mongodb-associate"
+    link: "https://www.credly.com/badges/dd475800-3152-4946-98c9-3e5ab8fb850b/linked_in_profile"
   },
   {
     name: "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
@@ -138,7 +138,7 @@ const certifications = [
     date: "Issued Jul 2024",
     id: "100722159OCI2024GAIOCP",
     skills: ["AI", "Generative AI", "Oracle Cloud"],
-    link: "paste-link/cert-oci-genai"
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D90A47A72237CDB051E7295D4FD89F79E986F6B1C5BA9CF3753555BF65DA171E"
   },
   {
     name: "Professional Certificate in Kubernetes and Cloud Native Technologies",
@@ -146,7 +146,7 @@ const certifications = [
     date: "Issued Jul 2023",
     id: "e8728a4d404c4835af696736a40c7fac",
     skills: ["Linux Server", "Cloud-Native Architecture", "Kubernetes", "Cloud-Native Applications", "Scripting"],
-    link: "paste-link/cert-linux-foundation-k8s"
+    link: "https://credentials.edx.org/credentials/e8728a4d404c4835af696736a40c7fac/"
   },
   {
     name: "Verified Certificate for Introduction to Cloud Infrastructure Technologies",
@@ -154,7 +154,7 @@ const certifications = [
     date: "Issued Jun 2023",
     id: "a4736f656c294a97ac92a2339be1dbb7",
     skills: ["Cloud Computing"],
-    link: "paste-link/cert-linux-foundation-cloud-intro"
+    link: "https://courses.edx.org/certificates/a4736f656c294a97ac92a2339be1dbb7"
   },
   {
     name: "Cloud Hero DevOps Skills",
@@ -162,7 +162,7 @@ const certifications = [
     date: "Issued Mar 2023",
     id: "3387347",
     skills: [],
-    link: "paste-link/cert-gcp-cloud-hero"
+    link: "https://www.skills.google/public_profiles/05c5e06e-1857-49c5-be32-cebfe99e613f/badges/3387347?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
   },
   {
     name: "LFS101x: Introduction to Linux",
@@ -170,7 +170,7 @@ const certifications = [
     date: "Issued Feb 2023",
     id: "542d63c2de974e8b9803087054ccd933",
     skills: [],
-    link: "paste-link/cert-linux-foundation-lfs101"
+    link: "https://courses.edx.org/certificates/542d63c2de974e8b9803087054ccd933"
   },
   {
     name: "Data Science with Python",
@@ -178,7 +178,7 @@ const certifications = [
     date: "Issued Dec 2022",
     id: "UC-2381aba1-5f8e-42cd-8b43-34e10f95c284",
     skills: [],
-    link: "paste-link/cert-udemy-data-science"
+    link: "https://www.udemy.com/certificate/UC-2381aba1-5f8e-42cd-8b43-34e10f95c284/"
   },
   {
     name: "Big Data Computing | NPTEL",
@@ -186,7 +186,7 @@ const certifications = [
     date: "Issued Oct 2022",
     id: "CS65S3378053010179017",
     skills: [],
-    link: "paste-link/cert-nptel-big-data"
+    link: "https://drive.google.com/file/d/1czv2Wkt2d1KFDi9YM9Jz9rydJ8BgrCoa/view?usp=sharing"
   },
   {
     name: "Data, ML, and AI Tasks in Google Cloud",
@@ -194,7 +194,7 @@ const certifications = [
     date: "Issued Oct 2021",
     id: "1359826",
     skills: [],
-    link: "paste-link/cert-gcp-ml-ai-tasks"
+    link: "https://www.skills.google/public_profiles/05c5e06e-1857-49c5-be32-cebfe99e613f/badges/1359826"
   },
   {
     name: "Engineer Data in Google Cloud",
@@ -202,7 +202,7 @@ const certifications = [
     date: "Issued Oct 2021",
     id: "1373585",
     skills: [],
-    link: "paste-link/cert-gcp-engineer-data"
+    link: "https://www.skills.google/public_profiles/05c5e06e-1857-49c5-be32-cebfe99e613f/badges/1373585"
   },
   {
     name: "Insights from Data with BigQuery",
@@ -210,7 +210,7 @@ const certifications = [
     date: "Issued Oct 2021",
     id: "1365469",
     skills: [],
-    link: "paste-link/cert-gcp-bigquery"
+    link: "https://www.skills.google/public_profiles/05c5e06e-1857-49c5-be32-cebfe99e613f/badges/1365469"
   },
   {
     name: "Cloud Computing 2.0: Embracing Kubernetes",
@@ -218,7 +218,7 @@ const certifications = [
     date: "Issued Jul 2021",
     id: "56102559913834",
     skills: ["Amazon Web Services (AWS)"],
-    link: "paste-link/cert-sertifier-k8s"
+    link: "https://verified.sertifier.com/en/verify/56102559913834/"
   },
   {
     name: "Java Programming: Complete Beginner to Advanced",
@@ -226,7 +226,7 @@ const certifications = [
     date: "Issued Jan 2021",
     id: "UC-5589346a-3c28-4220-9b3b-aeed1ca7e038",
     skills: [],
-    link: "paste-link/cert-udemy-java"
+    link: "https://www.udemy.com/certificate/UC-5589346a-3c28-4220-9b3b-aeed1ca7e038/"
   },
   {
     name: "GAIT",
@@ -234,7 +234,7 @@ const certifications = [
     date: "Issued May 2023 · Expired May 2024",
     id: "2024V1MCOE0000000098",
     skills: [],
-    link: "paste-link/cert-gait"
+    link: "https://drive.google.com/file/d/1gnfBhDtFOlDBU6YxlneRfsfUfy8mP_-t/view"
   }
 ];
 
